@@ -1,0 +1,16 @@
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\bin\Debug\net8.0\Manga_Collection.exe
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\bin\Debug\net8.0\Manga_Collection.deps.json
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\bin\Debug\net8.0\Manga_Collection.runtimeconfig.json
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\bin\Debug\net8.0\Manga_Collection.dll
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\bin\Debug\net8.0\Manga_Collection.pdb
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.AssemblyInfoInputs.cache
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.AssemblyInfo.cs
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.csproj.CoreCompileInputs.cache
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.dll
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\refint\Manga_Collection.dll
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.pdb
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.genruntimeconfig.cache
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\ref\Manga_Collection.dll
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.Properties.Resources.resources
+C:\Users\grube\source\repos\Manga_Collection\Manga_Collection\obj\Debug\net8.0\Manga_Collection.csproj.GenerateResource.cache

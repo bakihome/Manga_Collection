@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\manga_collection\\manga_collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|solutionrelative:manga_collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\manga_collection\\manga_collection\\models\\mangaeditioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|solutionrelative:manga_collection\\models\\mangaeditioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\manga_collection\\manga_collection\\models\\editioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|solutionrelative:manga_collection\\models\\editioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\manga_collection\\manga_collection\\models\\animeeditioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|solutionrelative:manga_collection\\models\\animeeditioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\manga_collection\\manga_collection\\models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|solutionrelative:manga_collection\\models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\manga_collection\\manga_collection\\models\\collectibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|solutionrelative:manga_collection\\models\\collectibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\manga_collection\\manga_collection\\models\\anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|solutionrelative:manga_collection\\models\\anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\manga_collection\\manga_collection\\models\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96D55B7-4A96-4D1A-B9E8-3F700E6A6E81}|Manga_Collection\\Manga_Collection.csproj|solutionrelative:manga_collection\\models\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditionInfo.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\EditionInfo.cs",
+              "RelativeDocumentMoniker": "Manga_Collection\\Models\\EditionInfo.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\EditionInfo.cs",
+              "RelativeToolTip": "Manga_Collection\\Models\\EditionInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:24:01.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnimeEditionInfo.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\AnimeEditionInfo.cs",
+              "RelativeDocumentMoniker": "Manga_Collection\\Models\\AnimeEditionInfo.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\AnimeEditionInfo.cs",
+              "RelativeToolTip": "Manga_Collection\\Models\\AnimeEditionInfo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwDQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:11:12.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MangaEditionInfo.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\MangaEditionInfo.cs",
+              "RelativeDocumentMoniker": "Manga_Collection\\Models\\MangaEditionInfo.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\MangaEditionInfo.cs",
+              "RelativeToolTip": "Manga_Collection\\Models\\MangaEditionInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:49:14.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Anime.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\Anime.cs",
+              "RelativeDocumentMoniker": "Manga_Collection\\Models\\Anime.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\Anime.cs",
+              "RelativeToolTip": "Manga_Collection\\Models\\Anime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:43:48.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Manga.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\Manga.cs",
+              "RelativeDocumentMoniker": "Manga_Collection\\Models\\Manga.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\Manga.cs",
+              "RelativeToolTip": "Manga_Collection\\Models\\Manga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:38:44.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Collectibles.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\Collectibles.cs",
+              "RelativeDocumentMoniker": "Manga_Collection\\Models\\Collectibles.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\Collectibles.cs",
+              "RelativeToolTip": "Manga_Collection\\Models\\Collectibles.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:31:06.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Collection.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\Collection.cs",
+              "RelativeDocumentMoniker": "Manga_Collection\\Models\\Collection.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Models\\Collection.cs",
+              "RelativeToolTip": "Manga_Collection\\Models\\Collection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:58:47.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Program.cs",
+              "RelativeDocumentMoniker": "Manga_Collection\\Program.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\Manga_Collection\\Manga_Collection\\Program.cs",
+              "RelativeToolTip": "Manga_Collection\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:21:21.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
