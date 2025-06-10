@@ -27,21 +27,17 @@ namespace WeebTracker
             // Show Window
             mainWindow.Show();
             PrivateCollection currentCollection = new PrivateCollection();
-            using (var ctx = new WeebTrackerDBContext())
-            {
-                currentCollection.GenerateData();
-                foreach (KeyValuePair<Collectible, List<EditionInfo>> kvp in currentCollection)
-                {
-                    ctx.Collectibles.Add(kvp.Key);
-                    ctx.SaveChanges();
-                }
-            }
 
-
-
-
-
-
+            // Initiale Daten einfügen
+            //using (var ctx = new WeebTrackerDBContext())
+            //{
+            //    currentCollection.GenerateData();
+            //    foreach (Collectible col in currentCollection)
+            //    {
+            //        ctx.Collectibles.Add(col);
+            //        ctx.SaveChanges();
+            //    }
+            //}
         }
     }
 }

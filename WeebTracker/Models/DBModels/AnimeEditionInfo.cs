@@ -17,12 +17,12 @@ namespace Models.DBModels
 
         public AnimeEditionInfo() { }
 
-        public AnimeEditionInfo(int volume, int amount, double price, string storagemedium, int startepisode, int endepisode, string notes) : base(volume, amount, price)
+        public AnimeEditionInfo(int volume, int amount, double price, string storagemedium, int startepisode, int endepisode, string image) : base(volume, amount, price, image)
         {
             StorageMedium = storagemedium;
             Startepisode = startepisode;
             Endepisode = endepisode;
-            Notes = notes;
+            
         }
         public AnimeEditionInfo(int volume, int amount, double price, string storagemedium, int startepisode, int endepisode, string notes, string image) : base( volume,  amount,  price, image)
         {

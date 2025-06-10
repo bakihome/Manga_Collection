@@ -29,6 +29,15 @@ namespace Models.DBModels
             Medium = medium;
         }
 
+        public Collectible(string titel_deutsch, bool abgeschlossen, string medium, List<EditionInfo> editionInfos)
+        {
+
+            Title_German = titel_deutsch;
+            Finalised = abgeschlossen;
+            Medium = medium;
+            EditionInfo = editionInfos;
+        }
+
         public Collectible(string titel_deutsch, bool abgeschlossen, string medium, string image)
         {
             
@@ -36,6 +45,16 @@ namespace Models.DBModels
             Finalised = abgeschlossen;
             Medium = medium;
             Image = image;
+        }
+
+        public Collectible(string titel_deutsch, bool abgeschlossen, string medium, string image, List<EditionInfo> editionInfos)
+        {
+
+            Title_German = titel_deutsch;
+            Finalised = abgeschlossen;
+            Medium = medium;
+            Image = image;
+            EditionInfo = editionInfos;
         }
 
         public Collectible(string titel_deutsch, string titel_jap, bool abgeschlossen, string medium)
@@ -48,6 +67,17 @@ namespace Models.DBModels
             
         }
 
+        public Collectible(string titel_deutsch, string titel_jap, bool abgeschlossen, string medium, List<EditionInfo> editionInfos)
+        {
+
+            Title_German = titel_deutsch;
+            Title_Japanese = titel_jap;
+            Finalised = abgeschlossen;
+            Medium = medium;
+            EditionInfo = editionInfos;
+
+        }
+
         public Collectible(string titel_deutsch, string titel_jap, bool abgeschlossen, string medium, string image)
         {
             
@@ -56,6 +86,17 @@ namespace Models.DBModels
             Finalised = abgeschlossen;
             Medium = medium;
             Image = image;
+        }
+
+        public Collectible(string titel_deutsch, string titel_jap, bool abgeschlossen, string medium, string image, List<EditionInfo> editionInfos)
+        {
+
+            Title_German = titel_deutsch;
+            Title_Japanese = titel_jap;
+            Finalised = abgeschlossen;
+            Medium = medium;
+            Image = image;
+            EditionInfo = editionInfos;
         }
 
     }
