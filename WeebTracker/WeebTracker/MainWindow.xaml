@@ -1,7 +1,7 @@
 ﻿<Window x:Class="WeebTracker.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="clr-namespace:WeebTracker.ViewModels"
+        xmlns:vm="clr-namespace:WeebTracker.ViewModel"
         xmlns:views="clr-namespace:WeebTracker.Views"
         Title="Bibliothek"
         Height="450"
@@ -9,14 +9,9 @@
 
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
-    </Window.Resources>
-
-    <Window.DataContext>
-        <vm:MainWindowViewModel/>
-    </Window.DataContext>
+    </Window.Resources>    
 
     <DockPanel>
-
         <Grid DockPanel.Dock="Top" Background="#EEE" Margin="0,0,0,5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
@@ -52,10 +47,10 @@
         </Grid>
 
         <Grid>
-            <views:MangaListView
-                Visibility="{Binding IsMangaVisible, Converter={StaticResource BoolToVis}}"/>
+            <!--<views:MangaListView
+        Visibility="{Binding IsMangaVisible, Converter={StaticResource BoolToVis}}"/>
             <views:AnimeListView
-                Visibility="{Binding IsAnimeVisible, Converter={StaticResource BoolToVis}}"/>
+        Visibility="{Binding IsAnimeVisible, Converter={StaticResource BoolToVis}}"/>-->
         </Grid>
     </DockPanel>
 </Window>

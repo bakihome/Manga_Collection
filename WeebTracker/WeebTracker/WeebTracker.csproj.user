@@ -7,16 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\AddItemWindow.xaml.cs">
+    <Compile Update="View\AddItemWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\AnimeListView.xaml.cs">
+    <Compile Update="View\AnimeListView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\MangaListView.xaml.cs">
+    <Compile Update="View\MangaListView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\StatisticWindow.xaml.cs">
+    <Compile Update="View\StatisticWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -24,16 +24,16 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\AddItemWindow.xaml">
+    <Page Update="View\AddItemWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\AnimeListView.xaml">
+    <Page Update="View\AnimeListView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\MangaListView.xaml">
+    <Page Update="View\MangaListView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\StatisticWindow.xaml">
+    <Page Update="View\StatisticWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,0 +1,16 @@
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\bin\Debug\net8.0-windows\Models.deps.json
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\bin\Debug\net8.0-windows\Models.dll
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\bin\Debug\net8.0-windows\Models.pdb
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\bin\Debug\net8.0-windows\Common.dll
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\bin\Debug\net8.0-windows\Common.pdb
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.csproj.AssemblyReference.cache
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.AssemblyInfoInputs.cache
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.AssemblyInfo.cs
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.csproj.CoreCompileInputs.cache
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.sourcelink.json
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.csproj.Up2Date
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.dll
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\refint\Models.dll
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\Models.pdb
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Models\obj\Debug\net8.0-windows\ref\Models.dll

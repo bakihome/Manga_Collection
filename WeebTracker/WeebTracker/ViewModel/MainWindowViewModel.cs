@@ -3,114 +3,83 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
-using WeebTracker.Command;
 using WeebTracker.Views;
+using Common.Command;
+using Models;
+using System.Windows.Controls;
 
-namespace WeebTracker.ViewModels
+
+namespace WeebTracker.ViewModel
 {
-
-    public class CoverItemViewModel
+    public class MainWindowViewModel : BaseViewModel
     {
-        public string CoverImagePath { get; set; }
-
-        public string Title { get; set; }
-
-        public CoverItemViewModel(string coverImagePath, string title)
-        {
-            CoverImagePath = coverImagePath;
-            Title = title;
-        }
-    }
-
-    public class MainWindowViewModel : INotifyPropertyChanged
-    {
-        #region Private fields
-
-        private bool _isMangaVisible = true;
-        private bool _isAnimeVisible = false;
-
+        #region ------------------------- Fields, Constants, Delegates, Events ---------------------------------
+        /// <summary>
+        /// View that is currently bound to the ContentControl.
+        /// </summary>
+        private UserControl currentView;
         #endregion
 
-        #region Public Properties
-
-        /// <summary>
-        /// the collection of manga covers to display.
-        /// </summary>
-        public ObservableCollection<CoverItemViewModel> MangaItems { get; set; }
-
-        /// <summary>
-        /// the collection of anime covers to display.
-        /// </summary>
-        public ObservableCollection<CoverItemViewModel> AnimeItems { get; set; }
-
-        /// <summary>
-        /// if true, we show the manga list. If false, manga list is hidden.
-        /// </summary>
-        public bool IsMangaVisible
-        {
-            get => _isMangaVisible;
-            set
-            {
-                if (_isMangaVisible != value)
-                {
-                    _isMangaVisible = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-
-        /// <summary>
-        /// if true, we show the anime list. If false, anime list is hidden.
-        /// </summary>
-        public bool IsAnimeVisible
-        {
-            get => _isAnimeVisible;
-            set
-            {
-                if (_isAnimeVisible != value)
-                {
-                    _isAnimeVisible = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-
-        #endregion
-
-        #region Commands
-
-        public ICommand ShowAddCommand { get; }
-        public ICommand ShowStatsCommand { get; }
-        public ICommand ShowMangaCommand { get; }
-        public ICommand ShowAnimeCommand { get; }
-
-        /// <summary>
-        /// command is bound to each edit button under a cover item.
-        /// </summary>
-        public ICommand EditCommand { get; }
-
-        #endregion
-
-        #region Constructor
+        #region ------------------------- Constructors, Destructors, Dispose, Clone ----------------------------
 
         public MainWindowViewModel()
         {
             //empty for now
-            MangaItems = new ObservableCollection<CoverItemViewModel>();
-            AnimeItems = new ObservableCollection<CoverItemViewModel>();
+            //MangaItems = new ObservableCollection<CoverItemViewModel>();
+            //AnimeItems = new ObservableCollection<CoverItemViewModel>();
 
             // initialize commands:
-            ShowAddCommand = new RelayCommand(_ => ExecuteShowAdd());
-            ShowStatsCommand = new RelayCommand(_ => ExecuteShowStats());
-            ShowMangaCommand = new RelayCommand(_ => ExecuteShowManga());
-            ShowAnimeCommand = new RelayCommand(_ => ExecuteShowAnime());
+            ShowAddCommand = new ActionCommand(_ => ExecuteShowAdd(), CommandCanExecute);
+            ShowStatsCommand = new ActionCommand(_ => ExecuteShowStats(), CommandCanExecute);
+            ShowMangaCommand = new ActionCommand(_ => ExecuteShowManga(), CommandCanExecute);
+            ShowAnimeCommand = new ActionCommand(_ => ExecuteShowAnime(), CommandCanExecute);
 
-            EditCommand = new RelayCommand(item => ExecuteEdit(item));
+            EditCommand = new ActionCommand(item => ExecuteEdit(item), CommandCanExecute);
+
         }
 
         #endregion
 
-        #region Command Handlers
+        #region ------------------------- Properties, Indexes --------------------------------------------------
+
+        
+        public ICommand ShowAddCommand { get; private set; }
+        public ICommand ShowStatsCommand { get; private set; }
+        public ICommand ShowMangaCommand { get; private set; }
+        public ICommand ShowAnimeCommand { get; private set; }
+
+        /// <summary>
+        /// command is bound to each edit button under a cover item.
+        /// </summary>
+        public ICommand EditCommand { get; private set; }
+        ///// <summary>
+        ///// the collection of manga covers to display.
+        ///// </summary>
+        //public ObservableCollection<CoverItemViewModel> MangaItems { get; set; }
+
+        ///// <summary>
+        ///// the collection of anime covers to display.
+        ///// </summary>
+        //public ObservableCollection<CoverItemViewModel> AnimeItems { get; set; }
+
+        /// <summary>
+        /// if true, we show the manga list. If false, manga list is hidden.
+        /// </summary>
+
+        public UserControl CurrentView
+        {
+            get { return currentView; }
+            set
+            {
+                currentView = value;
+                OnPropertyChanged(nameof(CurrentView));
+            }
+        }
+
+        
+        #endregion
+
+        #region ------------------------- Commands --------------------------------------------------------------
 
         private void ExecuteShowAdd()
         {
@@ -130,14 +99,24 @@ namespace WeebTracker.ViewModels
 
         private void ExecuteShowManga()
         {
-            IsMangaVisible = true;
-            IsAnimeVisible = false;
+            MangaListView mangaListView = new MangaListView();
+            MangaListViewModel mangaListViewModel = new MangaListViewModel();
+            mangaListView.DataContext = mangaListViewModel;
+
+            CurrentView = mangaListView;
+            //IsMangaVisible = true;
+            //IsAnimeVisible = false;
         }
 
         private void ExecuteShowAnime()
         {
-            IsAnimeVisible = true;
-            IsMangaVisible = false;
+            AnimeListView animeListView = new AnimeListView();
+            AnimeListViewModel animeListViewModel = new AnimeListViewModel();
+            animeListView.DataContext = animeListViewModel;
+
+            CurrentView = animeListView;
+            //IsAnimeVisible = true;
+            //IsMangaVisible = false;
         }
 
         private void ExecuteEdit(object? parameter)
@@ -151,16 +130,12 @@ namespace WeebTracker.ViewModels
             }
         }
 
-        #endregion
-
-        #region INotifyPropertyChanged
-
-        public event PropertyChangedEventHandler? PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string propName = "")
+        private bool CommandCanExecute(object parameter)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
+            return true;
         }
 
         #endregion
+
     }
 }
