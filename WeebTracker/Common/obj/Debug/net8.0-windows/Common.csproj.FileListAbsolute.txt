@@ -1,5 +1,5 @@
-C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Common\bin\Debug\net8.0-windows\Common.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Common\bin\Debug\net8.0-windows\Common.deps.json
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Common\bin\Debug\net8.0-windows\Common.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Common\bin\Debug\net8.0-windows\Common.pdb
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Common\obj\Debug\net8.0-windows\Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\Common\obj\Debug\net8.0-windows\Common.AssemblyInfoInputs.cache
