@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4X9SmfNbCnE=",
+  "dgSpecHash": "wtZZ3sXdP70=",
   "success": true,
   "projectFilePath": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\WeebTracker.EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grube\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\grube\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
-    "C:\\Users\\grube\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\grube\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\grube\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\grube\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

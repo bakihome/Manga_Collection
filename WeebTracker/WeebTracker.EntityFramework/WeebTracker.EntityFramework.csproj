@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj" />
-    <ProjectReference Include="..\WeebTracker\WeebTracker.csproj" />
   </ItemGroup>
 
 </Project>

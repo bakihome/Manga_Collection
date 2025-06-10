@@ -10,23 +10,24 @@ namespace WeebTracker.EntityFramework
 {
     public class WeebTrackerDBContext : DbContext
     {
-        DbSet<Collectible> Collectibles { get; set; }
+        public DbSet<Collectible> Collectibles { get; set; }
 
-        DbSet<Anime> Animes { get; set; }
+        public DbSet<Anime> Animes { get; set; }
 
-        DbSet<Manga> Manga { get; set; }
+        public DbSet<Manga> Manga { get; set; }
 
-        DbSet<EditionInfo> EditionInfos { get; set; }
+        public DbSet<EditionInfo> EditionInfos { get; set; }
 
-        DbSet<AnimeEditionInfo> AnimeEditionInfos { get; set; }
+        public DbSet<AnimeEditionInfo> AnimeEditionInfos { get; set; }
 
-        DbSet<MangaEditionInfo> MangaEditionInfos { get; set; }
+        public DbSet<MangaEditionInfo> MangaEditionInfos { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=WeebTrackerDB;Trusted_Connection=True;");
             base.OnConfiguring(optionsBuilder);
-        }
+        }       
+
     }
 }

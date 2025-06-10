@@ -8,16 +8,30 @@ using System.Threading.Tasks;
 
 namespace Models.DBModels
 {
-    public class MangaEditionInfo
-    {
-        [Key]
-        [ForeignKey("EditionInfo")]
-        public int EditionID { get; set; }
+    public class MangaEditionInfo : EditionInfo
+    {        
         public string Title { get; set; }
-        public int Startchapter { get; set; }
-        public int Endchapter { get; set; }
+        public int StartChapter { get; set; }
+        public int EndChapter { get; set; }
         public bool FirstEdition { get; set; }
 
-        public EditionInfo EditionInfo { get; set; }
+        public MangaEditionInfo() { }
+
+        public MangaEditionInfo(int volume, int amount, double price, string title, int startchapter, int endchapter, bool firstedition) : base( volume, amount, price)
+        {
+            Title = title;
+            StartChapter = startchapter;
+            EndChapter = endchapter;
+            FirstEdition = firstedition;
+        }
+
+        public MangaEditionInfo(int volume, int amount, double price, string title, int startchapter, int endchapter, bool firstedition, string image) : base( volume, amount, price, image)
+        {
+            Title = title;
+            StartChapter = startchapter;
+            EndChapter = endchapter;
+            FirstEdition = firstedition;
+        }
+
     }
 }

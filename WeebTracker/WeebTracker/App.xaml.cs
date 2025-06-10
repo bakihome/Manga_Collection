@@ -1,8 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Models;
+using Models.DBModels;
 using System.Configuration;
 using System.Data;
+using System.DirectoryServices.ActiveDirectory;
 using System.Windows;
+using System.Windows.Input;
+using WeebTracker.EntityFramework;
 using WeebTracker.ViewModel;
+
 
 namespace WeebTracker
 {
@@ -20,6 +26,22 @@ namespace WeebTracker
 
             // Show Window
             mainWindow.Show();
+            PrivateCollection currentCollection = new PrivateCollection();
+            using (var ctx = new WeebTrackerDBContext())
+            {
+                currentCollection.GenerateData();
+                foreach (KeyValuePair<Collectible, List<EditionInfo>> kvp in currentCollection)
+                {
+                    ctx.Collectibles.Add(kvp.Key);
+                    ctx.SaveChanges();
+                }
+            }
+
+
+
+
+
+
         }
     }
 }

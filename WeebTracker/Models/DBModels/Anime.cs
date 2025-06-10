@@ -8,14 +8,20 @@ using System.Threading.Tasks;
 
 namespace Models.DBModels
 {
-    public class Anime
+    public class Anime : Collectible
     {
-        [Key]
-        [ForeignKey("Collectible")]
-        public int CollectiblesID { get; set; }
+        
         public string Director {  get; set; }
         public string Description { get; set; }
         public Collectible Collectibles { get; set; }
+
+        public Anime() { }
+
+        public Anime(string titel_deutsch, bool abgeschlossen, string medium, string description, string regisseur) : base(titel_deutsch, abgeschlossen, medium)
+        {
+            Director = regisseur;
+            Description = description;
+        }
 
     }
 }

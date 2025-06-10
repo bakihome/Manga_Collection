@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeebTracker.EntityFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3222fa650498191ba8e0a43bf974f68d64f6448d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee1ce3646a9970c47d4d98a8e623fa5558b6fb02")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeebTracker.EntityFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeebTracker.EntityFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

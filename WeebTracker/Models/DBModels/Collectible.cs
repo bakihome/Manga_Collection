@@ -15,13 +15,48 @@ namespace Models.DBModels
         public string? Title_Japanese { get; set; }
         public bool Finalised { get; set; }
         public string Medium {  get; set; }
-        public string Image {  get; set; } = "Image/placeholder.jpg";
-
-        public Manga? Manga { get; set; }
-
-        public Anime? Anime { get; set; }
+        public string Image {  get; set; } = "Image/placeholder.jpg";       
 
         public ICollection<EditionInfo> EditionInfo { get; set; }
+
+        public Collectible(){}
+
+        public Collectible(string titel_deutsch, bool abgeschlossen, string medium)
+        {
+            
+            Title_German = titel_deutsch;
+            Finalised = abgeschlossen;
+            Medium = medium;
+        }
+
+        public Collectible(string titel_deutsch, bool abgeschlossen, string medium, string image)
+        {
+            
+            Title_German = titel_deutsch;
+            Finalised = abgeschlossen;
+            Medium = medium;
+            Image = image;
+        }
+
+        public Collectible(string titel_deutsch, string titel_jap, bool abgeschlossen, string medium)
+        {
+            
+            Title_German = titel_deutsch;
+            Title_Japanese = titel_jap;
+            Finalised = abgeschlossen;
+            Medium = medium;
+            
+        }
+
+        public Collectible(string titel_deutsch, string titel_jap, bool abgeschlossen, string medium, string image)
+        {
+            
+            Title_German = titel_deutsch;
+            Title_Japanese= titel_jap;
+            Finalised = abgeschlossen;
+            Medium = medium;
+            Image = image;
+        }
 
     }
 }

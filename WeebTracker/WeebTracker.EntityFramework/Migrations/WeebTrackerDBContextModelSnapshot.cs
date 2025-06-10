@@ -21,47 +21,6 @@ namespace WeebTracker.EntityFramework.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Models.DBModels.Anime", b =>
-                {
-                    b.Property<int>("CollectiblesID")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Director")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("CollectiblesID");
-
-                    b.ToTable("Animes");
-                });
-
-            modelBuilder.Entity("Models.DBModels.AnimeEditionInfo", b =>
-                {
-                    b.Property<int>("EditionID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Endepisode")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Notes")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Startepisode")
-                        .HasColumnType("int");
-
-                    b.Property<string>("StorageMedium")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("EditionID");
-
-                    b.ToTable("AnimeEditionInfos");
-                });
-
             modelBuilder.Entity("Models.DBModels.Collectible", b =>
                 {
                     b.Property<int>("CollectiblesID")
@@ -69,6 +28,11 @@ namespace WeebTracker.EntityFramework.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CollectiblesID"));
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
 
                     b.Property<bool>("Finalised")
                         .HasColumnType("bit");
@@ -91,6 +55,10 @@ namespace WeebTracker.EntityFramework.Migrations
                     b.HasKey("CollectiblesID");
 
                     b.ToTable("Collectibles");
+
+                    b.HasDiscriminator().HasValue("Collectible");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Models.DBModels.EditionInfo", b =>
@@ -107,6 +75,11 @@ namespace WeebTracker.EntityFramework.Migrations
                     b.Property<int>("CollectiblesID")
                         .HasColumnType("int");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(21)
+                        .HasColumnType("nvarchar(21)");
+
                     b.Property<string>("Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -122,65 +95,86 @@ namespace WeebTracker.EntityFramework.Migrations
                     b.HasIndex("CollectiblesID");
 
                     b.ToTable("EditionInfos");
+
+                    b.HasDiscriminator().HasValue("EditionInfo");
+
+                    b.UseTphMappingStrategy();
+                });
+
+            modelBuilder.Entity("Models.DBModels.Anime", b =>
+                {
+                    b.HasBaseType("Models.DBModels.Collectible");
+
+                    b.Property<int?>("CollectiblesTempId11")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Director")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("CollectiblesTempId11");
+
+                    b.HasDiscriminator().HasValue("Anime");
                 });
 
             modelBuilder.Entity("Models.DBModels.Manga", b =>
                 {
-                    b.Property<int>("CollectiblesID")
-                        .HasColumnType("int");
+                    b.HasBaseType("Models.DBModels.Collectible");
 
                     b.Property<string>("Autor")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("CollectiblesID");
+                    b.Property<int?>("CollectiblesTempId2")
+                        .HasColumnType("int");
 
-                    b.ToTable("Manga");
+                    b.HasIndex("CollectiblesTempId2");
+
+                    b.HasDiscriminator().HasValue("Manga");
+                });
+
+            modelBuilder.Entity("Models.DBModels.AnimeEditionInfo", b =>
+                {
+                    b.HasBaseType("Models.DBModels.EditionInfo");
+
+                    b.Property<int>("Endepisode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Startepisode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("StorageMedium")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("AnimeEditionInfo");
                 });
 
             modelBuilder.Entity("Models.DBModels.MangaEditionInfo", b =>
                 {
-                    b.Property<int>("EditionID")
-                        .HasColumnType("int");
+                    b.HasBaseType("Models.DBModels.EditionInfo");
 
-                    b.Property<int>("Endchapter")
+                    b.Property<int>("EndChapter")
                         .HasColumnType("int");
 
                     b.Property<bool>("FirstEdition")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Startchapter")
+                    b.Property<int>("StartChapter")
                         .HasColumnType("int");
 
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("EditionID");
-
-                    b.ToTable("MangaEditionInfos");
-                });
-
-            modelBuilder.Entity("Models.DBModels.Anime", b =>
-                {
-                    b.HasOne("Models.DBModels.Collectible", "Collectibles")
-                        .WithOne("Anime")
-                        .HasForeignKey("Models.DBModels.Anime", "CollectiblesID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Collectibles");
-                });
-
-            modelBuilder.Entity("Models.DBModels.AnimeEditionInfo", b =>
-                {
-                    b.HasOne("Models.DBModels.EditionInfo", "EditionInfo")
-                        .WithOne("AnimeEditionInfo")
-                        .HasForeignKey("Models.DBModels.AnimeEditionInfo", "EditionID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("EditionInfo");
+                    b.HasDiscriminator().HasValue("MangaEditionInfo");
                 });
 
             modelBuilder.Entity("Models.DBModels.EditionInfo", b =>
@@ -194,42 +188,27 @@ namespace WeebTracker.EntityFramework.Migrations
                     b.Navigation("Collectibles");
                 });
 
-            modelBuilder.Entity("Models.DBModels.Manga", b =>
+            modelBuilder.Entity("Models.DBModels.Anime", b =>
                 {
                     b.HasOne("Models.DBModels.Collectible", "Collectibles")
-                        .WithOne("Manga")
-                        .HasForeignKey("Models.DBModels.Manga", "CollectiblesID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany()
+                        .HasForeignKey("CollectiblesTempId11");
 
                     b.Navigation("Collectibles");
                 });
 
-            modelBuilder.Entity("Models.DBModels.MangaEditionInfo", b =>
+            modelBuilder.Entity("Models.DBModels.Manga", b =>
                 {
-                    b.HasOne("Models.DBModels.EditionInfo", "EditionInfo")
-                        .WithOne("MangaEditionInfo")
-                        .HasForeignKey("Models.DBModels.MangaEditionInfo", "EditionID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("Models.DBModels.Collectible", "Collectibles")
+                        .WithMany()
+                        .HasForeignKey("CollectiblesTempId2");
 
-                    b.Navigation("EditionInfo");
+                    b.Navigation("Collectibles");
                 });
 
             modelBuilder.Entity("Models.DBModels.Collectible", b =>
                 {
-                    b.Navigation("Anime");
-
                     b.Navigation("EditionInfo");
-
-                    b.Navigation("Manga");
-                });
-
-            modelBuilder.Entity("Models.DBModels.EditionInfo", b =>
-                {
-                    b.Navigation("AnimeEditionInfo");
-
-                    b.Navigation("MangaEditionInfo");
                 });
 #pragma warning restore 612, 618
         }

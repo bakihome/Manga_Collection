@@ -1646,6 +1646,24 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "WeebTracker.EntityFramework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WeebTracker.EntityFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeebTracker.EntityFramework.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -4809,6 +4827,11 @@
       "type": "project",
       "path": "../Models/Models.csproj",
       "msbuildProject": "../Models/Models.csproj"
+    },
+    "WeebTracker.EntityFramework/1.0.0": {
+      "type": "project",
+      "path": "../WeebTracker.EntityFramework/WeebTracker.EntityFramework.csproj",
+      "msbuildProject": "../WeebTracker.EntityFramework/WeebTracker.EntityFramework.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4818,7 +4841,8 @@
       "Microsoft.EntityFrameworkCore >= 9.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5",
-      "Models >= 1.0.0"
+      "Models >= 1.0.0",
+      "WeebTracker.EntityFramework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4859,6 +4883,9 @@
             },
             "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\Models.csproj": {
               "projectPath": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\Models.csproj"
+            },
+            "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\WeebTracker.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\WeebTracker.EntityFramework.csproj"
             }
           }
         }

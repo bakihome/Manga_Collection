@@ -8,12 +8,17 @@ using System.Threading.Tasks;
 
 namespace Models.DBModels
 {
-    public class Manga
+    public class Manga : Collectible
     {
-        [Key]
-        [ForeignKey("Collectible")]
-        public int CollectiblesID { get; set; }
+        
         public string Autor {  get; set; }
         public Collectible Collectibles { get; set; }
+
+        public Manga() { }
+
+        public Manga( string titel_deutsch, bool abgeschlossen, string medium, string autor) : base(titel_deutsch, abgeschlossen, medium)
+        {
+            Autor = autor;
+        }
     }
 }

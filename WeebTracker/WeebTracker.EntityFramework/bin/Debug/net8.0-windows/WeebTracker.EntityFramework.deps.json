@@ -11,8 +11,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.5",
-          "Models": "1.0.0",
-          "WeebTracker": "1.0.0"
+          "Models": "1.0.0"
         },
         "runtime": {
           "WeebTracker.EntityFramework.dll": {}
@@ -50,14 +49,6 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.11.4.0",
             "fileVersion": "1.1100.424.31005"
-          }
-        }
-      },
-      "CommunityToolkit.Mvvm/8.4.0": {
-        "runtime": {
-          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
-            "assemblyVersion": "8.4.0.0",
-            "fileVersion": "8.4.0.1"
           }
         }
       },
@@ -983,21 +974,6 @@
             "fileVersion": "1.0.0.0"
           }
         }
-      },
-      "WeebTracker/1.0.0": {
-        "dependencies": {
-          "Common": "1.0.0",
-          "CommunityToolkit.Mvvm": "8.4.0",
-          "Microsoft.EntityFrameworkCore": "9.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
-          "Models": "1.0.0"
-        },
-        "runtime": {
-          "WeebTracker.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -1020,13 +996,6 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
-    },
-    "CommunityToolkit.Mvvm/8.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tqVU8yc/ADO9oiTRyTnwhFN68hCwvkliMierptWOudIAvWY1mWCh5VFh+guwHJmpMwfg0J0rY+yyd5Oy7ty9Uw==",
-      "path": "communitytoolkit.mvvm/8.4.0",
-      "hashPath": "communitytoolkit.mvvm.8.4.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -1573,11 +1542,6 @@
       "sha512": ""
     },
     "Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "WeebTracker/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

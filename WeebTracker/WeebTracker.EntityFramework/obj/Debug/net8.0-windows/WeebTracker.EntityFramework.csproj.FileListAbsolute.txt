@@ -1,15 +1,10 @@
-C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.deps.json
-C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.runtimeconfig.json
-C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.exe
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.EntityFramework.deps.json
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.EntityFramework.runtimeconfig.json
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.EntityFramework.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.EntityFramework.pdb
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\Common.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\Models.dll
-C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\Models.pdb
-C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\WeebTracker.pdb
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\bin\Debug\net8.0-windows\Common.pdb
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\obj\Debug\net8.0-windows\WeebTracker.EntityFramework.csproj.AssemblyReference.cache
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker.EntityFramework\obj\Debug\net8.0-windows\WeebTracker.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig

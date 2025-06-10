@@ -13,7 +13,8 @@
           "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.5",
-          "Models": "1.0.0"
+          "Models": "1.0.0",
+          "WeebTracker.EntityFramework": "1.0.0"
         },
         "runtime": {
           "WeebTracker.dll": {}
@@ -984,6 +985,19 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "WeebTracker.EntityFramework/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "WeebTracker.EntityFramework.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1559,6 +1573,11 @@
       "sha512": ""
     },
     "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WeebTracker.EntityFramework/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
