@@ -7,31 +7,25 @@
              xmlns:local="clr-namespace:WeebTracker.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
-        <ItemsControl ItemsSource="{Binding AnimeItems}">
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <UniformGrid Columns="4"/>
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-
+    <ScrollViewer>
+        <ItemsControl ItemsSource="{Binding Animes}">
             <ItemsControl.ItemTemplate>
-                <DataTemplate >
-                    <Border BorderBrush="#CCC" BorderThickness="1" Margin="8" Padding="4">
-                        <StackPanel>
-                            <Image Source="{Binding CoverImagePath}"
-                                   Width="120"
-                                   Height="180"
-                                   Stretch="UniformToFill"
-                                   Margin="0,0,0,4"/>
-                            <Button Content="Bearbeiten"
-                                    Command="{Binding DataContext.EditCommand, 
-                                                RelativeSource={RelativeSource AncestorType=UserControl}}"
-                                    CommandParameter="{Binding}"/>
+                <DataTemplate>
+                    <Border Margin="10" Padding="5" BorderBrush="Gray" BorderThickness="1" CornerRadius="5">
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                            <Image Source="{Binding Image}" Width="100" Height="150" Stretch="Uniform" />
+                            <TextBlock Text="{Binding Title_German}" FontWeight="Bold" Margin="5" TextAlignment="Center" />
+                            <Button Content="Bearbeiten" Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}" />
                         </StackPanel>
                     </Border>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
+
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
         </ItemsControl>
     </ScrollViewer>
 </UserControl>

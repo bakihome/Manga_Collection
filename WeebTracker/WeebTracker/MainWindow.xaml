@@ -47,10 +47,13 @@
         </Grid>
 
         <Grid>
-            <!--<views:MangaListView
-        Visibility="{Binding IsMangaVisible, Converter={StaticResource BoolToVis}}"/>
-            <views:AnimeListView
-        Visibility="{Binding IsAnimeVisible, Converter={StaticResource BoolToVis}}"/>-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ContentControl Grid.ColumnSpan="2" Content="{Binding CurrentView}"></ContentControl>
+            <ContentControl Grid.Column="0" Content="{Binding CurrentViewLeft}"></ContentControl>
+            <ContentControl Grid.Column="1" Content="{Binding CurrentViewRight}"></ContentControl>
         </Grid>
     </DockPanel>
 </Window>

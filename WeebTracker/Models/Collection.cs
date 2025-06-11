@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class PrivateCollection : IEnumerable<Collectible>    {
+    public class PrivateCollection : IEnumerable<Collectible>    
+    {
         
         public List<Collectible> MainCollection = new List<Collectible>();  
         public IEnumerator<Collectible> GetEnumerator()
@@ -20,53 +21,59 @@ namespace Models
             return MainCollection.GetEnumerator();
         }
 
+        public PrivateCollection() {}
+
+        public PrivateCollection(List<Collectible> dbcollection)
+        {
+            MainCollection = dbcollection;
+        }
         public void GenerateData()
         {
-            MainCollection.Add(new Manga("OnePiece", false, "Manga", "Eichiro Oda", new List<EditionInfo>()));
+            MainCollection.Add(new Manga("OnePiece", false, "Manga", "Eichiro Oda", "../Image/onepiece1.jpg", new List<EditionInfo>()));
 
-            MainCollection.Add(new Manga("InuYasha", true, "Manga", "Rumiko Takahashi", new List<EditionInfo>()));
+            MainCollection.Add(new Manga("InuYasha", true, "Manga", "Rumiko Takahashi", "../Image/inuyasha1.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Manga("Battle Angel Alita", true, "Manga", "Yukito Kishiro",new List<EditionInfo>()));
+            MainCollection.Add(new Manga("Battle Angel Alita", true, "Manga", "Yukito Kishiro", "../Image/alita1.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Manga("Candidate for Goddess", true, "Manga", "Yukiru Sugisaki", new List<EditionInfo>()));
+            MainCollection.Add(new Manga("Candidate for Goddess", true, "Manga", "Yukiru Sugisaki", "../Image/goddess1.jpg", new List<EditionInfo>()));
            
-            MainCollection.Add(new Manga("Bleach", false, "Manga", "Tite Kubo", new List<EditionInfo>()));
+            MainCollection.Add(new Manga("Bleach", false, "Manga", "Tite Kubo", "../Image/bleach1.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Manga("Fairy Tail", true, "Manga", "Hiro Mashima", new List<EditionInfo>()));
+            MainCollection.Add(new Manga("Fairy Tail", true, "Manga", "Hiro Mashima", "../Image/fairytail1.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Manga("My Hero Academia", false, "Manga", "Kohei Horikoshi", new List<EditionInfo>()));
+            MainCollection.Add(new Manga("My Hero Academia", false, "Manga", "Kohei Horikoshi", "../Image/academia1.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Manga("Hellsing", false, "Manga", "Kota Hirano", new List<EditionInfo>()));
+            MainCollection.Add(new Manga("Hellsing", false, "Manga", "Kota Hirano", "../Image/hellsing1.jpg", new List<EditionInfo>()));
 
-            MainCollection.Add(new Anime("Chihiros Reise ins Zauberland", true, "Anime", "Film", "Hayao Miyazaki", new List<EditionInfo>()));
+            MainCollection.Add(new Anime("Chihiros Reise ins Zauberland", true, "Anime", "Film", "Hayao Miyazaki", "../Image/chihiro.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Anime("Prinzessin Mononoke", true, "Anime", "Film", "Hayao Miyazaki", new List<EditionInfo>()));
+            MainCollection.Add(new Anime("Prinzessin Mononoke", true, "Anime", "Film", "Hayao Miyazaki", "../Image/mononoke.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Anime("Samurai Champloo", true, "Anime", "Serie", "Shin'ichiro Watanabe", new List<EditionInfo>()));
+            MainCollection.Add(new Anime("Samurai Champloo", true, "Anime", "Serie", "Shin'ichiro Watanabe", "../Image/champloo1.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Anime("Cowboy Bebop", true, "Anime", "Serie", "Shin'ichiro Watanabe", new List<EditionInfo>()));
+            MainCollection.Add(new Anime("Cowboy Bebop", true, "Anime", "Film", "Shin'ichiro Watanabe", "../Image/bebop1.jpg", new List<EditionInfo>()));
             
-            MainCollection.Add(new Anime("Ranma 1/2", false, "Anime", "Serie", "Rumiko Takahashi", new List<EditionInfo>()));
+            MainCollection.Add(new Anime("Ranma 1/2", false, "Anime", "Serie", "Rumiko Takahashi", "../Image/ranma.jpg", new List<EditionInfo>()));
 
 
             Collectible entry = this.SelectEntry("OnePiece");
             //Collectible entry = MainCollection.FirstOrDefault(a => a.Title_German == "OnePiece");
-            entry.EditionInfo.Add(new MangaEditionInfo(1, 1, 7.19, "Das Abenteuer beginnt", 1, 5, false,"Image/onepiece1.jpg"));
-            entry.EditionInfo.Add(new MangaEditionInfo(2, 1, 7.19, "Ruffy versus Buggy der Clown", 6, 10, false, "Image/onepiece2.jpg"));
-            entry.EditionInfo.Add(new MangaEditionInfo(3, 1, 7.19, "Die Suche geht weiter", 11, 15, false, "Image/onepiece3.jpg"));
-            entry.EditionInfo.Add(new MangaEditionInfo(4, 1, 7.19, "Wolf im Schafspelz", 16, 20, false, "Image/onepiece4.jpg"));
-            entry.EditionInfo.Add(new MangaEditionInfo(5, 1, 7.19, "Wem schlägt jetzt die Stunde", 21, 25, false, "Image/onepiece5.jpg"));
+            entry.EditionInfo.Add(new MangaEditionInfo(1, 1, 7.19, "Das Abenteuer beginnt", 1, 5, false,"../Image/onepiece1.jpg"));
+            entry.EditionInfo.Add(new MangaEditionInfo(2, 1, 7.19, "Ruffy versus Buggy der Clown", 6, 10, false, "../Image/onepiece2.jpg"));
+            entry.EditionInfo.Add(new MangaEditionInfo(3, 1, 7.19, "Die Suche geht weiter", 11, 15, false, "../Image/onepiece3.jpg"));
+            entry.EditionInfo.Add(new MangaEditionInfo(4, 1, 7.19, "Wolf im Schafspelz", 16, 20, false, "../Image/onepiece4.jpg"));
+            entry.EditionInfo.Add(new MangaEditionInfo(5, 1, 7.19, "Wem schlägt jetzt die Stunde", 21, 25, false, "../Image/onepiece5.jpg"));
             Collectible entry1 = this.SelectEntry("Chihiros Reise ins Zauberland");
-            entry1.EditionInfo.Add(new AnimeEditionInfo(1, 1, 23.18, "BlueRay", 1, 1, "Studio Ghibli", "Image/chihiro.jpg"));
+            entry1.EditionInfo.Add(new AnimeEditionInfo(1, 1, 23.18, "BlueRay", 1, 1, "Studio Ghibli", "../Image/chihiro.jpg"));
             Collectible entry2 = this.SelectEntry("Samurai Champloo");
-            entry2.EditionInfo.Add(new AnimeEditionInfo(1, 1, 18.99, "DVD", 1, 4, "Image/champloo1.jpg"));
-            entry2.EditionInfo.Add(new AnimeEditionInfo(2, 1, 18.99, "DVD", 5, 8, "Image/champloo2.jpg"));
-            entry2.EditionInfo.Add(new AnimeEditionInfo(3, 1, 18.99, "DVD", 9, 12, "Image/champloo3.jpg"));
-            entry2.EditionInfo.Add(new AnimeEditionInfo(4, 1, 18.99, "DVD", 13, 16, "Der Sommer der Liebe", "Image/champloo4.jpg"));
-            entry2.EditionInfo.Add(new AnimeEditionInfo(5, 1, 18.99, "DVD", 17, 20, "Image/champloo5.jpg"));
-            entry2.EditionInfo.Add(new AnimeEditionInfo(6, 1, 18.99, "DVD", 21, 24, "Image/champloo6.jpg"));
-            entry2.EditionInfo.Add(new AnimeEditionInfo(7, 1, 18.99, "DVD", 25, 28, "Image/champloo7.jpg"));
-            entry2.EditionInfo.Add(new AnimeEditionInfo(8, 1, 18.99, "DVD", 29, 32, "Image/champloo8.jpg"));
+            entry2.EditionInfo.Add(new AnimeEditionInfo(1, 1, 18.99, "DVD", 1, 4, "../Image/champloo1.jpg"));
+            entry2.EditionInfo.Add(new AnimeEditionInfo(2, 1, 18.99, "DVD", 5, 8, "../Image/champloo2.jpg"));
+            entry2.EditionInfo.Add(new AnimeEditionInfo(3, 1, 18.99, "DVD", 9, 12, "../Image/champloo3.jpg"));
+            entry2.EditionInfo.Add(new AnimeEditionInfo(4, 1, 18.99, "DVD", 13, 16, "Der Sommer der Liebe", "../Image/champloo4.jpg"));
+            entry2.EditionInfo.Add(new AnimeEditionInfo(5, 1, 18.99, "DVD", 17, 20, "../Image/champloo5.jpg"));
+            entry2.EditionInfo.Add(new AnimeEditionInfo(6, 1, 18.99, "DVD", 21, 24, "../Image/champloo6.jpg"));
+            entry2.EditionInfo.Add(new AnimeEditionInfo(7, 1, 18.99, "DVD", 25, 28, "../Image/champloo7.jpg"));
+            entry2.EditionInfo.Add(new AnimeEditionInfo(8, 1, 18.99, "DVD", 29, 32, "../Image/champloo8.jpg"));
 
 
         }
@@ -76,7 +83,7 @@ namespace Models
             Collectible entry = MainCollection.FirstOrDefault(a => a.Title_German == value);
             return entry;
         }
-
+        
         public void ShowMangaCollection()
         {
             foreach (Collectible col in MainCollection)

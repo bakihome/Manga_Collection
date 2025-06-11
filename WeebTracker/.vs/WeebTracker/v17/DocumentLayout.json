@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\Migrations\\20250610235658_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeebTracker.EntityFramework\\Migrations\\20250610235658_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|solutionrelative:models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\models\\dbmodels\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|solutionrelative:models\\dbmodels\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\models\\dbmodels\\anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|solutionrelative:models\\dbmodels\\anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\models\\dbmodels\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|solutionrelative:models\\dbmodels\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\view\\animelistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\view\\animelistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\view\\mangalistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\view\\mangalistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\viewmodel\\animelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\viewmodel\\animelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\viewmodel\\mangalistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\viewmodel\\mangalistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\view\\statisticwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\view\\statisticwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker\\view\\statisticwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{607726E1-680F-4AA7-BFA1-4C0F631BC4DA}|WeebTracker\\WeebTracker.csproj|solutionrelative:weebtracker\\view\\statisticwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01921A94-1BA3-4E28-B0D7-76E1F37A1C88}|WeebTracker.EntityFramework\\WeebTracker.EntityFramework.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\weebtracker.entityframework\\weebtrackerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\models\\dbmodels\\animeeditioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|solutionrelative:models\\dbmodels\\animeeditioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\models\\dbmodels\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|solutionrelative:models\\dbmodels\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|solutionrelative:models\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|c:\\users\\grube\\onedrive\\dokumente\\github\\manga_collection\\weebtracker\\models\\dbmodels\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC17537B-8F29-4952-B2C7-5E5112BE3A53}|Models\\Models.csproj|solutionrelative:models\\dbmodels\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\Migrations\\20250610214128_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,42 +94,192 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "20250610235658_initial.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\Migrations\\20250610235658_initial.cs",
+              "RelativeDocumentMoniker": "WeebTracker.EntityFramework\\Migrations\\20250610235658_initial.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\Migrations\\20250610235658_initial.cs",
+              "RelativeToolTip": "WeebTracker.EntityFramework\\Migrations\\20250610235658_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:56:58.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Anime.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\DBModels\\Anime.cs",
+              "RelativeDocumentMoniker": "Models\\DBModels\\Anime.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\DBModels\\Anime.cs",
+              "RelativeToolTip": "Models\\DBModels\\Anime.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwCAAAADPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:40:17.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AnimeListView.xaml",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\View\\AnimeListView.xaml",
+              "RelativeDocumentMoniker": "WeebTracker\\View\\AnimeListView.xaml",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\View\\AnimeListView.xaml",
+              "RelativeToolTip": "WeebTracker\\View\\AnimeListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T23:35:24.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WeebTracker\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\MainWindow.xaml",
+              "RelativeToolTip": "WeebTracker\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T23:25:44.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WeebTracker\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WeebTracker\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:25:38.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MangaListView.xaml",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\View\\MangaListView.xaml",
+              "RelativeDocumentMoniker": "WeebTracker\\View\\MangaListView.xaml",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\View\\MangaListView.xaml",
+              "RelativeToolTip": "WeebTracker\\View\\MangaListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T22:43:45.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "WeebTracker\\ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "WeebTracker\\ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwGwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:41:52.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnimeListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\ViewModel\\AnimeListViewModel.cs",
+              "RelativeDocumentMoniker": "WeebTracker\\ViewModel\\AnimeListViewModel.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\ViewModel\\AnimeListViewModel.cs",
+              "RelativeToolTip": "WeebTracker\\ViewModel\\AnimeListViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:41:36.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "WeebTracker\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "WeebTracker\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:40:42.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MangaListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\ViewModel\\MangaListViewModel.cs",
+              "RelativeDocumentMoniker": "WeebTracker\\ViewModel\\MangaListViewModel.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\ViewModel\\MangaListViewModel.cs",
+              "RelativeToolTip": "WeebTracker\\ViewModel\\MangaListViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:39:27.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StatisticWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\View\\StatisticWindow.xaml",
+              "RelativeDocumentMoniker": "WeebTracker\\View\\StatisticWindow.xaml",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\View\\StatisticWindow.xaml",
+              "RelativeToolTip": "WeebTracker\\View\\StatisticWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T22:16:26.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StatisticWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\View\\StatisticWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WeebTracker\\View\\StatisticWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\View\\StatisticWindow.xaml.cs",
+              "RelativeToolTip": "WeebTracker\\View\\StatisticWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:06:08.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AnimeEditionInfo.cs",
               "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\DBModels\\AnimeEditionInfo.cs",
               "RelativeDocumentMoniker": "Models\\DBModels\\AnimeEditionInfo.cs",
               "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\DBModels\\AnimeEditionInfo.cs",
               "RelativeToolTip": "Models\\DBModels\\AnimeEditionInfo.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T21:58:20.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Manga.cs",
               "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\DBModels\\Manga.cs",
               "RelativeDocumentMoniker": "Models\\DBModels\\Manga.cs",
               "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\DBModels\\Manga.cs",
               "RelativeToolTip": "Models\\DBModels\\Manga.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAC8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T21:43:25.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "20250610214128_initial.cs",
               "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\Migrations\\20250610214128_initial.cs",
               "RelativeDocumentMoniker": "WeebTracker.EntityFramework\\Migrations\\20250610214128_initial.cs",
               "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\Migrations\\20250610214128_initial.cs",
               "RelativeToolTip": "WeebTracker.EntityFramework\\Migrations\\20250610214128_initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T21:41:29.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T21:41:29.023Z"
             },
             {
               "$type": "Document",
@@ -91,40 +289,40 @@
               "RelativeDocumentMoniker": "Models\\Collection.cs",
               "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\Collection.cs",
               "RelativeToolTip": "Models\\Collection.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwBgAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwEsAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T21:40:25.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Collectible.cs",
               "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\DBModels\\Collectible.cs",
               "RelativeDocumentMoniker": "Models\\DBModels\\Collectible.cs",
               "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\Models\\DBModels\\Collectible.cs",
               "RelativeToolTip": "Models\\DBModels\\Collectible.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwBMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T21:39:35.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\App.xaml.cs",
               "RelativeDocumentMoniker": "WeebTracker\\App.xaml.cs",
               "ToolTip": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker\\App.xaml.cs",
               "RelativeToolTip": "WeebTracker\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA7wCQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T21:38:34.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "WeebTrackerDBContext.cs",
               "DocumentMoniker": "C:\\Users\\grube\\OneDrive\\Dokumente\\GitHub\\Manga_Collection\\WeebTracker\\WeebTracker.EntityFramework\\WeebTrackerDBContext.cs",
               "RelativeDocumentMoniker": "WeebTracker.EntityFramework\\WeebTrackerDBContext.cs",

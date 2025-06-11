@@ -41,6 +41,7 @@ C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracke
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker\bin\Debug\net8.0-windows\Prism.Events.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker\bin\Debug\net8.0-windows\System.ClientModel.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker\bin\Debug\net8.0-windows\System.Composition.Convention.dll

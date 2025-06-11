@@ -25,5 +25,9 @@ namespace Models.DBModels
         {
             Autor = autor;
         }
+        public Manga(string titel_deutsch, bool abgeschlossen, string medium, string autor,string image, List<EditionInfo> editionInfos) : base(titel_deutsch, abgeschlossen, medium, image, editionInfos)
+        {
+            Autor = autor;
+        }
     }
 }

@@ -309,6 +309,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "Prism.Events": {
+              "target": "Package",
+              "version": "[9.0.537, )"
             }
           },
           "imports": [

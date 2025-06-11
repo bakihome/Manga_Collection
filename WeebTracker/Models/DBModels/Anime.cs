@@ -29,5 +29,11 @@ namespace Models.DBModels
             Director = regisseur;
             Description = description;
         }
+
+        public Anime(string titel_deutsch, bool abgeschlossen, string medium, string description, string regisseur, string image, List<EditionInfo> editionInfos) : base(titel_deutsch, abgeschlossen, medium, image, editionInfos)
+        {
+            Director = regisseur;
+            Description = description;
+        }
     }
 }

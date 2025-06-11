@@ -11,7 +11,7 @@ using WeebTracker.EntityFramework;
 namespace WeebTracker.EntityFramework.Migrations
 {
     [DbContext(typeof(WeebTrackerDBContext))]
-    [Migration("20250610215956_initial")]
+    [Migration("20250610235658_initial")]
     partial class initial
     {
         /// <inheritdoc />

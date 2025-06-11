@@ -15,7 +15,7 @@ namespace Models.DBModels
         public string? Title_Japanese { get; set; }
         public bool Finalised { get; set; }
         public string Medium {  get; set; }
-        public string Image {  get; set; } = "Image/placeholder.jpg";       
+        public string Image {  get; set; } = "../Image/placeholder.jpg";       
 
         public ICollection<EditionInfo> EditionInfo { get; set; }
 
