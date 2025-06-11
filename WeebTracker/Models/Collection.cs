@@ -200,18 +200,18 @@ namespace Models
                 }
             }
             totalcost = mangacost + animecost;
-            Console.WriteLine("Anzahl der Mangareihen: " + mangaseries);
-            Console.WriteLine("davon abgeschlossen: " + mangafinalised);
-            Console.WriteLine("Anzahl aller Bänder: " + mangavolumes);
-            Console.WriteLine("");
-            Console.WriteLine("Manga-Kosten: " + mangacost);
-            Console.WriteLine("");
-            Console.WriteLine("Anzahl der Animefilme: " + animemovies);
-            Console.WriteLine("Anzahl der Animeserien: " + animeseries);
-            Console.WriteLine("");
-            Console.WriteLine("Anime-Kosten: " + animecost);
-            Console.WriteLine("");
-            Console.WriteLine("Gesamtkosten: " + totalcost);
+            //Console.WriteLine("Anzahl der Mangareihen: " + mangaseries);
+            //Console.WriteLine("davon abgeschlossen: " + mangafinalised);
+            //Console.WriteLine("Anzahl aller Bänder: " + mangavolumes);
+            //Console.WriteLine("");
+            //Console.WriteLine("Manga-Kosten: " + mangacost);
+            //Console.WriteLine("");
+            //Console.WriteLine("Anzahl der Animefilme: " + animemovies);
+            //Console.WriteLine("Anzahl der Animeserien: " + animeseries);
+            //Console.WriteLine("");
+            //Console.WriteLine("Anime-Kosten: " + animecost);
+            //Console.WriteLine("");
+            //Console.WriteLine("Gesamtkosten: " + totalcost);
         }
     }
 }

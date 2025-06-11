@@ -31,7 +31,6 @@
     <None Remove="Image\onepiece3.jpg" />
     <None Remove="Image\onepiece4.jpg" />
     <None Remove="Image\onepiece5.jpg" />
-    <None Remove="Image\placeholder.png" />
     <None Remove="Image\ranma.jpg" />
   </ItemGroup>
 
@@ -126,7 +125,7 @@
     <Resource Include="Image\onepiece5.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Image\placeholder.png">
+    <Resource Include="Image\placeholder.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Image\ranma.jpg">

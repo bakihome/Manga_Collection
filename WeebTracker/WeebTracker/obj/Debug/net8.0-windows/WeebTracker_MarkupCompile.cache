@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\grube\OneDrive\Dokumente\GitHub\Manga_Collection\WeebTracker\WeebTracker\App.xaml
-51008386053
+61113345421
 
-12806064368
+14-552374846
 233785237175
-MainWindow.xaml;View\AddItemWindow.xaml;View\AnimeListView.xaml;View\MangaListView.xaml;View\StatisticWindow.xaml;
+MainWindow.xaml;View\AddItemWindow.xaml;View\AnimeListView.xaml;View\DetailWindow.xaml;View\MangaListView.xaml;View\StatisticWindow.xaml;
 
 False
 

@@ -5,8 +5,74 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeebTracker.Views"
         mc:Ignorable="d"
-        Title="StatisticWindow" Height="450" Width="800">
-    <Grid Margin="10">
+        Title="Statistik" Height="400" Width="400">
+    <Border BorderBrush="Black" BorderThickness="2" Padding="20" Margin="10">
+        <StackPanel HorizontalAlignment="Center">
+            <TextBlock Text="Statistik"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       TextAlignment="Center"
+                       Margin="0,0,0,10"
+                       TextDecorations="Underline"/>
+           
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock  FontSize="14" TextAlignment="Center">
+                    <Run Text="Anzahl Mangareihen: "/>
+                    <Run Text="{Binding MangaCount}"/>
+                </TextBlock>
+                <TextBlock  FontSize="14" TextAlignment="Center">
+                    <Run Text="davon abgeschlossen: "/>
+                    <Run Text="{Binding MangaCompleted}"/>                    
+                </TextBlock>
+                <TextBlock FontSize="14" 
+                           TextAlignment="Center" 
+                           TextDecorations="Underline">
+                    <Run Text="Anzahl aller Bänder: "/>
+                    <Run Text="{Binding MangaVolumes}"/>
+                </TextBlock>
+            </StackPanel>
+
+            <TextBlock FontSize="14"
+                       TextAlignment="Center"
+                       TextDecorations="Underline"
+                       Margin="0,0,0,10">
+                <Run Text="Manga-Kosten: "/>
+                <Run Text="{Binding MangaCost}"/>
+            </TextBlock>
+            
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock FontSize="14" TextAlignment="Center">
+                    <Run Text="Anzahl Animefilme: "/>
+                    <Run Text="{Binding AnimeMovies}"/>
+                </TextBlock>
+                <TextBlock FontSize="14" TextAlignment="Center" TextDecorations="Underline">
+                    <Run Text="Anzahl Animeserien: "/>
+                    <Run Text="{Binding AnimeSeries}"/>
+                </TextBlock>
+            </StackPanel>
+
+            <TextBlock FontSize="14"
+                       TextAlignment="Center"
+                       TextDecorations="Underline"
+                       Margin="0,0,0,10">
+                <Run Text="DVD-Kosten: "/>
+                <Run Text="{Binding DvdCost}"/>
+            </TextBlock>
+
+            <TextBlock FontSize="14"
+                       FontWeight="Bold"
+                       TextAlignment="Center"
+                       TextDecorations="Underline"
+                       Margin="0,0,0,20">
+                <Run Text="Gesamtkosten: "/>
+                <Run Text="{Binding TotalCost}"/>
+            </TextBlock>
+
+            <!-- Button -->
+            <Button Content="Schließen" Width="80" Click="OnClose_Click"/>
+        </StackPanel>
+    </Border>
+    <!--<Grid Margin="10">
         <StackPanel>
             <TextBlock Text="Statistiken" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
 
@@ -17,5 +83,5 @@
 
             <Button Content="Schließen" Width="80" Margin="0,15,0,0" HorizontalAlignment="Center" Click="OnClose_Click"/>
         </StackPanel>
-    </Grid>
+    </Grid>-->
 </Window>

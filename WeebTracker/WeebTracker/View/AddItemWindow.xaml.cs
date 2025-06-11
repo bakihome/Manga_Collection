@@ -1,35 +1,63 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Win32;
+using Models.DBModels;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using WeebTracker.EntityFramework;
 
 namespace WeebTracker.Views
 {
-    /// <summary>
-    /// Interaction logic for AddItemWindow.xaml
-    /// </summary>
     public partial class AddItemWindow : Window
     {
         public AddItemWindow()
         {
             InitializeComponent();
         }
-        private void hinzufügen_Click(object sender, RoutedEventArgs e)
+
+        private void OnBrowseImage_Click(object sender, RoutedEventArgs e)
         {
         }
 
-        private void beenden_Click(object sender, RoutedEventArgs e)
+        private void OnSave_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+            string title_deutsch = TxtTitelDeutsch.Text;
+            string title_japanisch = TxtTitelJapanisch.Text;
+            string autor = TxtAutorDirektor.Text;
+            string medium = CmbMedium.Text;
+            var newCollectible = new Collectible();
+
+
+            if (string.IsNullOrWhiteSpace(title_deutsch) || string.IsNullOrWhiteSpace(autor) || string.IsNullOrWhiteSpace(medium))
+            {
+                MessageBox.Show("Pflichtfelder dürfen nicht leer sein.");                
+                return;
+            }
+            else
+            {
+                if (medium == "Manga")
+                {
+                    newCollectible = new Manga(title_deutsch, false, "Manga", autor, new List<EditionInfo>());
+                }
+                if (medium == "Anime (Film)")
+                {
+                    newCollectible = new Anime(title_deutsch, false, "Anime", "Film", autor, new List<EditionInfo>());
+                }
+                if (medium == "Anime (Serie)")
+                {
+                    newCollectible = new Anime(title_deutsch, false, "Anime", "Serie", autor, new List<EditionInfo>());
+                }
+                using (var ctx = new WeebTrackerDBContext())
+                {
+                    ctx.Collectibles.Add(newCollectible);
+                    ctx.SaveChanges();
+                }
+                MessageBox.Show("Eintrag gespeichert!");
+                this.Close();
+            }
+        }
+        
+
+        private void OnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
